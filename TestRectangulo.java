@@ -10,7 +10,7 @@ public class TestRectangulo {
 		r2.setLado1(100); //actualizar los valores del atributo lado 1
 		r2.setLado2(1000); //actualizar los valores del atributo lado 2
 		
-		System.out.printf("Atributos del rectángulo 1, lado1: %d, lado2: %d%n", r1.getLado1(), r1.getLado2());
+		System.out.printf("Atributos del rectángulo 1, lado1: %d, lado2: %d y de área: %d%n", r1.getLado1(), r1.getLado2(), r1.getArea());
 		System.out.printf("Atributos del rectángulo 2, lado1: %d, lado2: %d%n", r2.getLado1(), r2.getLado2());
 	}
 }

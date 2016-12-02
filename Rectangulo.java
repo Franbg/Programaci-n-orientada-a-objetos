@@ -16,4 +16,8 @@ public class Rectangulo {
 	public void setLado2(int l2){
 		lado2 = l2;
 	}
+	//metodo que devuelve el valor del area
+	public int getArea(){
+		return this.lado1 * this.lado2;
+	}
 }
